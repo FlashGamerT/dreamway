@@ -1,0 +1,6 @@
+{
+  "name": "Dream Way Travels",
+  "description": "Dream Way Travels is a premier tour operator, flight ticketing agent, visa assistance solver, and global travel planner based in Kondotty, Kerala.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

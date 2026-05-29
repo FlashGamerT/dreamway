@@ -101,12 +101,6 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenEnquiry }) => {
               Services
             </button>
             <button
-              onClick={() => scrollToSection('popular-packages')}
-              className={`transition-colors cursor-pointer ${isScrolled ? 'text-slate-700 hover:text-[#2a9bbc]' : 'text-slate-300 hover:text-sky-400'}`}
-            >
-              Tour Packages
-            </button>
-            <button
               onClick={() => scrollToSection('why-choose-us')}
               className={`transition-colors cursor-pointer ${isScrolled ? 'text-slate-700 hover:text-[#2a9bbc]' : 'text-slate-300 hover:text-sky-400'}`}
             >
@@ -197,15 +191,6 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenEnquiry }) => {
                 className="text-left py-2.5 border-b border-slate-900 font-display font-medium text-slate-200 hover:text-sky-400 text-sm uppercase tracking-wide"
               >
                 Services
-              </button>
-              <button
-                onClick={() => {
-                  setIsMobileMenuOpen(false);
-                  setTimeout(() => scrollToSection('popular-packages'), 100);
-                }}
-                className="text-left py-2.5 border-b border-slate-900 font-display font-medium text-slate-200 hover:text-sky-400 text-sm uppercase tracking-wide"
-              >
-                Tour Packages
               </button>
               <button
                 onClick={() => {

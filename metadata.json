@@ -1,6 +1,6 @@
 {
   "name": "Dream Way Travels",
-  "description": "Dream Way Travels is a premier tour operator, flight ticketing agent, visa assistance solver, and global travel planner based in Kondotty, Kerala.",
+  "description": "Dream Way Travels is a trusted flight ticketing agency and visa processing assistant based in Kondotty, Malappuram next to Calicut International Airport (CCJ).",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

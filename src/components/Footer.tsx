@@ -25,7 +25,7 @@ export const Footer: React.FC = () => {
         <div className="md:col-span-5 space-y-5">
           <Logo className="h-10 md:h-12" iconOnly={false} />
           <p className="text-xs sm:text-sm text-slate-400 leading-relaxed max-w-sm">
-            Your trusted premier travel partner for domestic and international holidays, pristine flight ticketing, and hassle-free visa completions near Calicut International Airport, Kondotty.
+            Your trusted premier flight ticketing and visa assistance travel partner near Calicut International Airport, Kondotty, Kerala.
           </p>
 
           {/* Social Icons (as seen in screenshots footer) */}
@@ -89,25 +89,19 @@ export const Footer: React.FC = () => {
           <div className="grid grid-cols-2 gap-2 text-xs sm:text-sm">
             <button
               onClick={handleScrollToTop}
-              className="text-left text-slate-400 hover:text-sky-400 transition-colors py-1.5 cursor-pointer"
+              className="text-left text-slate-400 hover:text-sky-400 transition-colors py-1.5 cursor-pointer col-span-2"
             >
               Home
             </button>
             <a
               href="#expertise-services"
-              className="text-left text-slate-400 hover:text-sky-400 transition-colors py-1.5 cursor-pointer"
+              className="text-left text-slate-400 hover:text-sky-400 transition-colors py-1.5 cursor-pointer col-span-2"
             >
               Services
             </a>
             <a
-              href="#popular-packages"
-              className="text-left text-slate-400 hover:text-sky-400 transition-colors py-1.5 cursor-pointer"
-            >
-              Destinations
-            </a>
-            <a
               href="#why-choose-us"
-              className="text-left text-slate-400 hover:text-sky-400 transition-colors py-1.5 cursor-pointer"
+              className="text-left text-slate-400 hover:text-sky-400 transition-colors py-1.5 cursor-pointer col-span-2"
             >
               Why Us
             </a>

@@ -59,7 +59,7 @@ export const WhyChooseUs: React.FC = () => {
             Founded with a passion for travel, <strong className="text-slate-950 font-bold">Dream Way Travels</strong> has grown from a small local agency in Kondotty to a trusted household name in Malappuram. Enjoying optimal proximity right next to <strong className="text-[#2a9bbc] font-bold">Calicut International Airport (CCJ)</strong>, we seamlessly cater to the urgent requirements of international expats, business executives, and leisure seekers.
           </p>
           <p className="text-slate-650 text-xs sm:text-sm font-sans leading-relaxed">
-            With over 15 years of industry experience, our dedicated crew ensures that every visa slot processed, every flight ticket booked, and every tailor-made holiday scheduled is executed with absolute perfection and complete transparency. No hidden charges.
+            With over 15 years of industry experience, our dedicated crew ensures that every visa slot processed, every flight ticket booked, and every client transit detail is executed with absolute perfection and complete transparency. No hidden charges or surprise commissions.
           </p>
 
           {/* Advantages List Grid */}

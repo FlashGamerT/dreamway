@@ -14,19 +14,19 @@ interface HeroProps {
 
 const HERO_SLIDES = [
   {
-    image: 'https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&q=80&w=1920',
-    title: 'Explore the World with Perfection',
-    location: 'Exquisite Beaches of Thailand'
+    image: 'https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&q=80&w=1920',
+    title: 'Instantly Book Flights Worldwide',
+    location: 'Calicut Int Airport CCJ Direct Ticketing Desk'
   },
   {
-    image: 'https://images.unsplash.com/photo-1596422846543-75c6fc15a51c?auto=format&fit=crop&q=80&w=1920',
-    title: 'Your Gateway to Seamless Journeys',
-    location: 'Modern Landmarks of Malaysia'
+    image: 'https://images.unsplash.com/photo-1544016768-982d1554f0b9?auto=format&fit=crop&q=80&w=1920',
+    title: 'Expert Visa Assistance & Slots',
+    location: 'GCC, Schengen, USA, and UK documentation'
   },
   {
-    image: 'https://images.unsplash.com/photo-1566228015668-4c45dbc4e2f5?auto=format&fit=crop&q=80&w=1920',
-    title: 'Experience Heaven on Earth',
-    location: 'Srinagar Peaks & Dal Lake, Kashmir'
+    image: 'https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&q=80&w=1920',
+    title: 'Your Trusted Airport Travel Partner',
+    location: '15+ Years Excellence in Kondotty, Kerala'
   }
 ];
 
@@ -148,21 +148,23 @@ export const Hero: React.FC<HeroProps> = ({ onSubmitEnquiry, initialService = ''
           </h1>
 
           <p className="text-base sm:text-lg text-slate-400 font-sans max-w-xl leading-relaxed">
-            Premium Travel Services & Seamless Planning. Experience hassle-free flight bookings, global visas, and custom-tailored luxury holiday packages.
+            Premium Ticketing Services & Air Travel Assistance. Book discounted flight tickets to Middle East/GCC, Europe, US, UK, and Far East instantly with 24/7 client desk backup.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 pt-4">
             <a
-              href="#popular-packages"
-              className="inline-flex items-center justify-center gap-2 py-3 px-8 bg-sky-600 hover:bg-sky-500 text-white font-semibold rounded-full shadow-[0_4px_20px_rgba(2,132,199,0.3)] hover:shadow-[0_4px_25px_rgba(2,132,199,0.5)] border border-sky-455/35 transition-all duration-300 font-sans text-xs sm:text-sm text-center uppercase tracking-wider"
+              href="https://wa.me/919995730044?text=Hi%20Dream%20Way%20Travels,%20I'm%20looking%20to%20book/reschedule%20flight%20tickets%20urgently!"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-2 py-3 px-8 bg-green-600 hover:bg-green-500 text-white font-semibold rounded-full shadow-[0_4px_20px_rgba(34,197,94,0.3)] hover:shadow-[0_4px_25px_rgba(34,197,94,0.5)] border border-green-550/35 transition-all duration-300 font-sans text-xs sm:text-sm text-center uppercase tracking-wider"
             >
-              Explore Tour Packages
+              WhatsApp Enquiry Desk
             </a>
             <a
               href="tel:+919995730044"
-              className="inline-flex items-center justify-center gap-2.5 py-3 px-8 bg-white/5 hover:bg-white/10 backdrop-blur-sm text-white hover:text-sky-300 font-semibold rounded-full border border-slate-800 transition-all duration-300 font-sans text-xs sm:text-sm text-center uppercase tracking-wider"
+              className="inline-flex items-center justify-center gap-2.5 py-3 px-8 bg-white/5 hover:bg-white/10 backdrop-blur-sm text-white hover:text-[#2a9bbc] font-semibold rounded-full border border-slate-800 transition-all duration-300 font-sans text-xs sm:text-sm text-center uppercase tracking-wider"
             >
-              <Phone className="w-4 h-4 text-sky-400" />
+              <Phone className="w-4 h-4 text-[#2a9bbc]" />
               <span>Call Us: +91 99957 30044</span>
             </a>
           </div>
@@ -273,13 +275,12 @@ export const Hero: React.FC<HeroProps> = ({ onSubmitEnquiry, initialService = ''
                     value={formData.service}
                     onChange={handleInputChange}
                     required
-                    className="w-full bg-slate-50 border border-slate-200 text-slate-700 rounded-lg py-2.5 px-3 text-sm focus:outline-none focus:ring-2 focus:ring-sky-500/80 transition-shadow font-sans cursor-pointer"
+                    className="w-full bg-slate-50 border border-slate-200 text-slate-700 rounded-lg py-2.5 px-3 text-sm focus:outline-none focus:ring-2 focus:ring-[#2a9bbc]/80 transition-shadow font-sans cursor-pointer"
                   >
                     <option value="" disabled>Select Service...</option>
                     <option value="Flight Ticketing">International/Domestic Flights</option>
                     <option value="Visa Assistance">Visa Assistance (Schengen/US/Gulf)</option>
-                    <option value="Holiday Packages">Custom Holiday Tour Packages</option>
-                    <option value="Hotel Bookings">Premium Hotel Row Stays</option>
+                    <option value="Hotel Bookings">Premium Hotel Transit Bookings</option>
                     <option value="Travel Insurance">Comprehensive Travel Insurance</option>
                   </select>
                 </div>
